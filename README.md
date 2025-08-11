@@ -161,12 +161,17 @@ https://github.com/bonlime/keras-deeplab-v3-plus
 ## 本库用Unet进行ESD的区域分割，代码中包括一些实用的工具：
 1.https://github.com/Tomry1114/2025_Unet_Segmentation/blob/main/pix_change.py 
 进行像素值转换，比如从1变到2
+
 2.https://github.com/Tomry1114/2025_Unet_Segmentation/blob/main/visual.py
 进行mask可视化
+
 3.https://github.com/Tomry1114/2025_Unet_Segmentation/tree/main/VOCdevkit/VOC2007/ImageSets/Segmentation
 这里放的是esd的数据集分割txt文件
+
 4.https://github.com/Tomry1114/2025_Unet_Segmentation/tree/main/miou_out
 这是结果
+
 5.代码里面可以支持批量生成img_out
+
 6.https://github.com/Tomry1114/2025_Unet_Segmentation/tree/main/model_data
 里面存放预训练最好的pt
